@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TorSniffr &bull; web sniffer for TOR onion land</title>
+	<meta name="description" content="TorSniffr is a Tor HTTP web sniffer and URL checker. Test any Tor onion address and check the HTTP response. A web-sniffer.net/TestURI.org alternative for onion land.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://www.torsniffr.com">
+
+	<meta property="og:title" content="TorSniffr &bull; web-sniffer for onion land">
+	<meta property="og:image" content="https://www.torsniffr.com/images/torsniffr-logo.png">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.torsniffr.com">
+	<meta property="og:description" content="TorSniffr is a Tor HTTP web sniffer and URL checker. Test any Tor onion address and check the HTTP response. A web-sniffer.net/TestURI.org alternative for onion land.">
+
+	<style>
+		*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}body{font:normal normal normal 14px/1.6em Arial,sans-serif}a{color:#1078E0;text-decoration:none}p{margin:10px 0}#container{width:100%;max-width:980px;margin:auto;position: relative}.half-width{margin:2em 0;width:49%;float:left}.half-width:first-child{margin-right:2%}#header h1,#header p.intro-text,#response-container h2{line-height:1em;margin:0}#header{overflow:hidden;margin-bottom:3em}#header .onion-logo{float:left;width:125px;margin-right:20px;}#header h1{font-size:34px;margin:20px 0 20px}#header .intro-text{font-size:16px}#form-container{clear:both;margin:1em 0;padding:1em;background-color:#fffcdb;border:2px solid #7d4698;border-radius:5px}.code{background:#f0f0f0;font-family:monospace;}#form-container label{font-weight:700}#form-container input{padding:.5em;height:35px;outline:0}#form-container input[type=text]{width:60%}#form-container input[type=submit]{background-color:#abcd03;border:0;color:#fff;font-weight:700;cursor:pointer;transition:box-shadow .25s linear}#form-container input[type=submit]:hover{box-shadow:inset -1px -1px 2px #666}#form-container input[type=submit]:active{background-color:#9FBE08}#form-redirect{vertical-align:middle;}#response-container{overflow:hidden;clear:both}#response-container h2{font-size:18px;color:#7d4698}#response-container .request,#response-container .response{margin:1em 0;padding:1em;border:1px solid #000;border-radius:5px;word-break: break-all;}#response-container .response{background-color:#FFFEF4}#response-container .request{background-color:#fffcdb}#response-container textarea{width:100%;min-width:100%;max-width:100%;min-height:350px;outline:0;overflow:auto}#response-container .content-response{clear:both;overflow:hidden}#saved-response{margin:2em 0 0}#footer{clear:both;margin-top:3em;border-top:1px solid #7d4698}.adverts{margin:4em auto 2em;text-align:center;overflow:hidden}.adverts a{display:inline-block;margin:0 2em}.adverts img{display:block}.adverts-top{margin:0 0 20px 0;padding-bottom:10px;border-bottom:1px solid #7D4698;}.red-warning__small{font-size:small;color:#c03;vertical-align:top}@media (max-width:479px){.adverts{margin:1em auto;text-align:center;overflow:hidden}.adverts a{display:block;margin:1em auto}.adverts img{display:block;width:100%;height:100%}#form-container input[type=submit],.half-width{width:100%}.half-width{margin:1em 0}#form-container input[type=submit]{margin-top:1em}#form-container input[type=text]{width:100%;margin-top:.5em}#form-container label{width:100%;display:inline-block}.intro-text{clear:both;padding-top:1em}
+
+		@media only screen and (max-width: 768px) {
+			#header{text-align:center}
+			#header .onion-logo{float:none;margin-right:0}
+			.code{word-break:break-all}
+		}
+	</style>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7d4698">
+	<meta name="msapplication-TileColor" content="#000000">
+	<meta name="theme-color" content="#000000">	
+</head>
+<body>
+
+<div id="container">
+	<div id="header">
+		<a href="/"><img src="/images/torsniffr-logo-125.png" class="onion-logo"></a>
+		<h1>TorSniffr</h1>
+		<p class="intro-text">
+			Test any Tor onion URL and check the HTTP response. TorSniffr is a web-sniffer.net/TestURI.org alternative for onion land.
+		</p>
+	</div>
+
+<% content %>
+
+	<div id="footer">
+		<p>
+			<small>Contact: <a href="mailto:torsniffr@torsniffr.com">torsniffr@torsniffr.com</a> | Github: <a href="https://github.com/phempshall/TorSniffr">https://github.com/phempshall/TorSniffr</a> </small>
+		</p>
+		<p>
+			<small>BTC/BCH- <a class="code" href="bitcoin://1SniffGp5m9FQox23UM8v6xjhKLb8XJ3c">1SniffGp5m9FQox23UM8v6xjhKLb8XJ3c</a> | XMR- <a class="code" href="monero://46sWFTRX7yqies6YjhnJjRcMfkLMyCT56EYqe9Y961efJSpaEPAaxCA8AUdqFP5cpR2W3fupgWTzrCcCPGrtZG8U5TqQRok">46sWFTRX7yqies6YjhnJjRcMfkLMyCT56EYqe9Y961efJSpaEPAaxCA8AUdqFP5cpR2W3fupgWTzrCcCPGrtZG8U5TqQRok</a></small>
+		</p>
+	</div>
+</div>
+
+</body>
+</html>

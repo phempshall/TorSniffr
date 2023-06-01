@@ -1,0 +1,5 @@
+<% INCLUDE index.tt %>
+
+  <div id="saved-response">
+    <h1 style="color:#c03;font-size:1.25em"><% sniff.warning_critical %></h1>
+  </div>

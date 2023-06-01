@@ -1,0 +1,29 @@
+<% INCLUDE index.tt %>
+
+  <div id="response-container">
+    <div class="half-width">
+      <h2>HTTP Request Headers</h2>
+      <div class="request">
+        <b><% sniff.request_message %></b><br>
+        <b>Host:</b> <% sniff.protocol %>://<% sniff.host %><br>
+        <% FOREACH request IN sniff.request_headers.keys.sort %>
+          <b><% request %>:</b> <% sniff.request_headers.$request %><br>
+        <% END %>
+      </div>
+    </div>
+    <div class="half-width">
+      <h2>HTTP Response Headers</h2>
+      <div class="response">
+        <b><% sniff.response_message %></b><br>
+        <% FOREACH response IN sniff.resp_headers.keys.sort %>
+          <b><% response %>:</b> <% sniff.resp_headers.$response %><br>
+        <% END %>
+      </div>        
+    </div>
+    <div class="content-response">
+      <h2>Content (<% sniff.response_size %>KB loaded in <% sniff.response_time %>s)</h2>
+      <% IF sniff.warning_exceeded != undef %>
+      <h2 style="color:#c03;margin:.5em 0"><small>Exceeded request length (<% sniff.warning_exceeded %>KB loaded in <% sniff.response_time %>s)</small></h2>
+      <% END %>
+      <textarea class="response" readonly="readonly"><% sniff.response_content %></textarea>
+    </div>

@@ -1,0 +1,15 @@
+<% IF sniff %>
+   <% SET value = sniff.protocol _ "://" _ sniff.host _ sniff.uri %>
+<% ELSE %>
+ <% SET value = "" %>
+<% END %>
+
+  <div id="form-container">
+    <form action="/sniffer/" method="post">
+      <label for="form-url">Page URI/URL</label>
+      <input type="text" name="form-url" id="form-url" placeholder=".onion addresses only" value="<% value %>">
+      <input type="submit" value="Check page">
+      <label for="form-redirect">Follow redirects?</label>
+      <input type="checkbox" name="form-redirect" id="form-redirect" value="1">
+  </div>
+
