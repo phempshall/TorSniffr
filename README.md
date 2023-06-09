@@ -25,6 +25,8 @@ Access via your web browser
 
 ## Manual Build
 
+Install Tor.
+
 Install Perl and the following cpan modules:
 
 - Net::Server@2.012
