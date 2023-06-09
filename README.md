@@ -8,7 +8,7 @@ Test any Tor onion URL and check the HTTP response. TorSniffr is a web-sniffer.n
 
 ## Caution
 
-**This application installs and connects to the Tor network. If this is a problem for you or your country, do not use this software.**
+**The Docker build of this application installs and connects to the Tor network. If this is a problem for you or your country, do not use this software.**
 
 ## Docker Build
 
